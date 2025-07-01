@@ -1,4 +1,8 @@
-# cokgezelektrik
+<center>
+  <img src="image/cokgezelektrik.png" alt="Çokgez Elektrik ve Klima servisi">
+</center>
+
+# Çokgez Elektrik ve Klima Servisi
 Çokgez Elektrik Web Site
 
 > [!WARNING]
@@ -6,3 +10,4 @@
 
 #### Bu kaynak kodlar https://cokgezelektrik.com.tr/ sitesinindir. Lütfen kodları değiştirmeyin veya almayın, `LICENSE_PRIVATE.md` lisansına göre hareket ediniz.
 
+Geliştirici : Çokgez Elektrik ve Klima Servisi
