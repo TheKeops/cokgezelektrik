@@ -36,6 +36,6 @@ Bu kaynak kodu ve ilişkili tüm dosyalar, depo sahibinin fikri mülkiyetindedir
 Bu depo yalnızca özel, dahili kullanım için tasarlanmıştır. Yetkisiz her türlü erişim veya kullanım kesinlikle yasaktır.
 
 ## İletşim 
-For inquiries or permission requests, please contact the repository owner directly.
+Sorularınız veya izin talepleriniz için lütfen doğrudan depo sahibine ulaşın.
 
 © 2025 Çokgez Elektrik. Tüm haklar saklıdır.
