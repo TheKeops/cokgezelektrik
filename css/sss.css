@@ -84,92 +84,6 @@ body.loaded #loading-screen {
   font-size: 17px;
 }
 
-.footer-cakma {
-  margin-top: 100px;
-  background-color: #2c3e50;
-  height: 300px;
-}
-
-.footer-cakma img {
-  float: left;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
-.footer-cakma .yonlendirme ul {
-  list-style: none;
-  display: block;
-  margin: 0;
-  padding: 0;
-  margin-left: 400px;
-}
-
-.footer-cakma .yonlendirme ul li .footer-a {
-  color: white;
-  text-decoration: none;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.footer-cakma .yonlendirme ul li {
-  margin-top: 10px;
-}
-
-.footer-cakma .yonlendirme h4 {
-  color: white;
-  margin-left: 400px;
-  padding-top: 50px;
-}
-
-.footer-cakma .social-media ul {
-  list-style: none;
-  display: block;
-  margin: 0;
-  padding: 0;
-  gap: 25px;
-  float: right;
-  margin-right: 50px;
-  margin-top: -140px;
-}
-
-.footer-cakma .social-media ul li .footer-a {
-  color: white;
-  text-decoration: none;
-}
-
-.footer-cakma .social-media ul li i {
-  margin-right: 10px;
-}
-
-.footer-cakma .social-media ul li .ikon-fb {
-  color: #3a58ff;
-}
-
-.footer-cakma .social-media ul li {
-  margin-top: 10px;
-}
-
-.footer-cakma .social-media ul li .ikon-insta {
-  color: #ff3aef;
-}
-
-.footer-cakma .social-media ul li .ikon-location {
-  color: red;
-}
-
-.footer-cakma .social-media h4 {
-  color: white;
-  display: block;
-  float: right;
-  margin-right: 350px;
-  margin-top: -175px;
-}
-
-.footer-cakma h3 {
-  color: white;
-}
-
 .accordion {
   background-color: #f1f1f1;
   color: #444;
@@ -238,7 +152,7 @@ body.loaded #loading-screen {
 }
 
 .footer-cakma .yonlendirme ul li {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .footer-cakma .yonlendirme h4 {
@@ -302,6 +216,16 @@ nav {
   flex-wrap: wrap;
   padding: 10px 20px;
   background-color: white;
+}
+
+::-webkit-scrollbar {
+  background-color: white;
+  width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2d4af1;
+  border-radius: 40px;
 }
 
 nav ul {

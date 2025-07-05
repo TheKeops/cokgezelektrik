@@ -167,7 +167,7 @@ body.loaded #loading-screen {
 }
 
 .footer-cakma .yonlendirme ul li {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .footer-cakma .yonlendirme h4 {
@@ -237,6 +237,16 @@ nav ul {
   display: flex;
   gap: 20px;
   list-style: none;
+}
+
+::-webkit-scrollbar {
+  background-color: white;
+  width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2d4af1;
+  border-radius: 40px;
 }
 
 .menu-btn {

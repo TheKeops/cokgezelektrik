@@ -30,3 +30,13 @@ button:hover {
   font-size: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
+
+::-webkit-scrollbar {
+  background-color: white;
+  width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2d4af1;
+  border-radius: 40px;
+}
