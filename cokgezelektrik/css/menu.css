@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.head-text-insta {
+  color: #ea2df1;
+  font-size: 35px;
+  transition: transform 0.3s ease;
+  display: none;
+}
+
+.head-text-insta:hover {
+  color: #ea2df1;
+  transition: transform 0.3s ease;
+}
+
+.head-text-facebook {
+  color: #3a58ff;
+  font-size: 35px;
+  margin-right: 35px;
+  transition: transform 0.3s ease;
+  display: none;
+}
+
+.head-text-facebook:hover {
+  color: #3a58ff;
+  transition: transform 0.3s ease;
+}
+
+.head-text-location {
+  color: red;
+  font-size: 35px;
+  margin-right: 35px;
+  transition: transform 0.3s ease;
+  display: none;
+}
+
+.head-text-location:hover {
+  color: red;
+  transition: transform 0.3s ease;
+}
+
+.go_main {
+  display: block;
+  padding: 20px 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #2d4af1;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+  transition: 300ms all;
+  width: 300px;
+}
+
+.go_main:hover {
+  background-color: #172fbb;
+  font-size: 25px;
+}
+
+.close {
+  display: block;
+}
+
+.not {
+  display: block;
+}
+
+.close-button {
+  display: none;
+}
+
+.menu-buttons .nav{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu-buttons .nav{
+    margin-top: 40px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .menu-buttons .nav a{
+    display: block;
+    margin-top: 40px;
+    margin-right: 35px;
+    font-size: 20px;
+    color: #172fbb;
+    text-decoration: none;
+  }
+
+  .not {
+    display: none;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .go_main {
+    display: none;
+  }
+
+  .close-button {
+    display: block;
+    margin-left: 40px;
+    margin-top: 40px;
+    background: none;
+    font-size: 15px;
+    border: none;
+  }
+  .head-text-facebook{
+    display: inline-block;
+  }
+  .head-text-location{
+    display: inline-block;
+  }
+  .head-text-insta{
+    display: inline-block;
+  };
+}
