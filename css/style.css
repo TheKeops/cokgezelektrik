@@ -146,6 +146,48 @@ body.loaded #loading-screen {
   transition: all 0.1s ease;
 }
 
+.head-text-insta {
+  color: #919191;
+  font-size: 25px;
+  float: right;
+  margin-right: 20px;
+  margin-top: -4px;
+  transition: transform 0.3s ease;
+}
+
+.head-text-insta:hover {
+  color: #ea2df1;
+  transition: transform 0.3s ease;
+}
+
+.head-text-facebook {
+  color: #919191;
+  font-size: 25px;
+  float: right;
+  margin-right: 20px;
+  margin-top: -4px;
+  transition: transform 0.3s ease;
+}
+
+.head-text-facebook:hover {
+  color: #3a58ff;
+  transition: transform 0.3s ease;
+}
+
+.head-text-location {
+  color: #919191;
+  font-size: 25px;
+  float: right;
+  margin-right: 50px;
+  margin-top: -4px;
+  transition: transform 0.3s ease;
+}
+
+.head-text-location:hover {
+  color: red;
+  transition: transform 0.3s ease;
+}
+
 .testimonials-section {
   margin-top: 300px;
 }
@@ -647,6 +689,17 @@ nav ul {
   .menu-btn {
     display: block;
   }
+
+  .head-text-insta {
+    display: none;
+  }
+  .head-text-facebook {
+    display: none;
+  }
+  .head-text-location {
+    display: none;
+  }
+
 }
 .kareler {
   display: flex;

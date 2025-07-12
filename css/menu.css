@@ -7,6 +7,44 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.head-text-insta {
+  color: #ea2df1;
+  font-size: 35px;
+  transition: transform 0.3s ease;
+  display: none;
+}
+
+.head-text-insta:hover {
+  color: #ea2df1;
+  transition: transform 0.3s ease;
+}
+
+.head-text-facebook {
+  color: #3a58ff;
+  font-size: 35px;
+  margin-right: 35px;
+  transition: transform 0.3s ease;
+  display: none;
+}
+
+.head-text-facebook:hover {
+  color: #3a58ff;
+  transition: transform 0.3s ease;
+}
+
+.head-text-location {
+  color: red;
+  font-size: 35px;
+  margin-right: 35px;
+  transition: transform 0.3s ease;
+  display: none;
+}
+
+.head-text-location:hover {
+  color: red;
+  transition: transform 0.3s ease;
+}
+
 .go_main {
   display: block;
   padding: 20px 10px;
@@ -45,7 +83,7 @@ body {
 
 @media (max-width: 768px) {
   .menu-buttons .nav{
-    margin-top: 50px;
+    margin-top: 40px;
     display: block;
     text-align: center;
     text-decoration: none;
@@ -53,8 +91,8 @@ body {
 
   .menu-buttons .nav a{
     display: block;
-    margin-top: 30px;
-    margin-right: 30px;
+    margin-top: 40px;
+    margin-right: 35px;
     font-size: 20px;
     color: #172fbb;
     text-decoration: none;
@@ -80,4 +118,13 @@ body {
     font-size: 15px;
     border: none;
   }
+  .head-text-facebook{
+    display: inline-block;
+  }
+  .head-text-location{
+    display: inline-block;
+  }
+  .head-text-insta{
+    display: inline-block;
+  };
 }
