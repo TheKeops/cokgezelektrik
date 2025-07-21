@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Yukarı Çık Butonu</title>
+  <style>
+    html {
+      scroll-behavior: smooth; /* Smooth scroll */
+    }
+
+    body {
+      height: 2000px; /* Test için uzun içerik */
+      font-family: sans-serif;
+      padding: 20px;
+    }
+
+    #yukariBtn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 12px 16px;
+      background-color: #222;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+      z-index: 999;
+    }
+
+    #yukariBtn.show {
+      opacity: 1;
+      pointer-events: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Scroll Testi</h1>
+  <p>Sayfanın aşağısına inince "Yukarı Çık" butonu görünür.</p>
+
+  <!-- Yukarı Çık Butonu -->
+  <button id="yukariBtn" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
+    ⬆ Yukarı
+  </button>
+
+  <script>
+    const yukariBtn = document.getElementById("yukariBtn");
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 300) {
+        yukariBtn.classList.add("show");
+      } else {
+        yukariBtn.classList.remove("show");
+      }
+    });
+  </script>
+
+</body>
+</html>
