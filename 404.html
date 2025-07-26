@@ -3,13 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/404.css" />
     <link
       rel="shortcut icon"
       href="image/cokgezelektrik_notext.PNG"
       type="image/x-icon"
     />
     <title>Çokgez Elektrik | 404 Sayfası</title>
+
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      img {
+        margin-top: 20px;
+      }
+
+      button {
+        padding: 20px 30px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        background-color: #2d4af1;
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        font-size: 18px;
+        color: white;
+        cursor: pointer;
+        transition: 300ms all;
+        margin-top: 50px;
+      }
+
+      button:hover {
+        background-color: #2036b4;
+        font-size: 20px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      ::-webkit-scrollbar {
+        background-color: white;
+        width: 14px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #2d4af1;
+        border-radius: 40px;
+      }
+
+    </style>
   </head>
   <body>
     <center>
@@ -29,7 +74,29 @@
       </button>
     </center>
 
-    <script src="script/404.js" defer></script>
+    <script>
+      function return_menu_func() {
+        window.location.href = "index.html";
+      }
+
+      function checkConnection() {
+        if (!navigator.onLine) {
+          window.location.href = "/offline.html";
+        }
+        else {
+          if (window.location.pathname === "/offline.html") {
+            window.location.href = "index.html";
+          }
+        }
+      }
+
+      window.addEventListener('load', checkConnection);
+
+      setInterval(checkConnection, 3000);
+
+      window.addEventListener('offline', checkConnection);
+
+    </script>
   </body>
 </html>
 
