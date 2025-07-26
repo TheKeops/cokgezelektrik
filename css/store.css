@@ -402,7 +402,8 @@ body.loaded #loading-screen {
 
   .square {
     width: 290px;
-    height: 350px;
+    max-height: 1000px; 
+    overflow-y: auto;
     margin-left: 0px;
   }
 
