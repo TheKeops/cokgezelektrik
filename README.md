@@ -3,7 +3,6 @@
 </center>
 
 # Çokgez Elektrik ve Klima Servisi
-Çokgez Elektrik Web Site
 
 > [!WARNING]
 > Kodlara bakmadan önce `LICENSE_PRIVATE.md` lisansını **mutlaka** okuyunuz!
