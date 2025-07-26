@@ -149,7 +149,6 @@ body.loaded #loading-screen {
 
 .square {
   width: 410px;
-  height: 450px;
   background-color: #ececec;
   border-radius: 12px;
   display: inline-block;
@@ -164,6 +163,8 @@ body.loaded #loading-screen {
   align-items: center;
   margin-left: 20px;
   margin-top: 50px;
+  max-height: 1000px; 
+  overflow-y: auto;
 }
 
 .square:hover {
