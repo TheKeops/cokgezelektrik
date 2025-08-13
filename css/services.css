@@ -131,6 +131,21 @@ body.loaded #loading-screen {
   align-items: center;
 }
 
+.head-text-theme {
+  color: #919191;
+  font-size: 25px;
+  float: right;
+  margin-right: 20px;
+  margin-top: -4px;
+  transition: color 0.3s ease;
+  background: none;
+  border: none;
+}
+
+.head-text-theme:hover {
+  color: #f1a92d;
+}
+
 .head-text-insta {
   color: #919191;
   font-size: 25px;
@@ -335,7 +350,7 @@ nav ul {
     font-size: 18px;
     width: 90%;
     padding: 15px 20px;
-  }
+  } 
 
   .container {
     flex-direction: column;
@@ -436,5 +451,8 @@ nav ul {
   }
   .head-text-location {
       display: none;
+  }
+  .head-text-theme {
+    display: none;
   }
 }

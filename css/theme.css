@@ -1,0 +1,115 @@
+
+[data-theme="dark"] {
+
+    h1 {
+        color: #aec2d3;
+    }
+
+    h2 {
+        color: #aec2d3;
+    }
+
+    .testimonial {
+        background-color: #202324;
+    }
+
+    .testimonials {
+        background-color: #272b2c;
+    }
+
+    .testimonials-section {
+        background-color: #272b2c;
+    }
+
+    p {
+        color: white;
+    }
+
+    .author {
+        color: rgb(218, 218, 218);
+    }
+
+    .kutu {
+        background-color: #202324;
+        color: rgb(218, 218, 218);
+    }
+
+    .kutu:hover {
+        background-color: #323536;
+        color: rgb(218, 218, 218);
+    }
+
+    nav {
+        background-color: #181a1b;
+    }
+
+    nav ul li .nav_a {
+        color: #ffffff;
+    }
+
+    .head-text {
+        background-color: #323536;
+        color: white;
+    }
+
+    h3 {
+        color: white;
+    }
+
+    h4 {
+        color: white;
+    }
+
+    a[id="services-a"] {
+        color:#aec2d3;
+    }
+
+    #loading-screen {
+        background-color: black;
+    }
+
+    #loading-screen img {
+        filter: invert(100%);
+    }
+
+    ::-webkit-scrollbar {
+        background-color: #181a1b;
+    }
+
+    .menu-button {
+        filter: invert(100%);
+    }
+
+    .menu-buttons ul .nav a {
+        color: white;
+    }
+
+    .square {
+        background-color: #202324;
+    }
+
+    .square:hover {
+        background-color: #323536;
+    }
+
+    .panel {
+        background-color: #272b2c;
+    }
+
+    .accordion {
+        background-color: #202324;
+        color: white;
+    }
+
+  background-color: #181a1b;
+}
+
+[data-theme="light"] {
+  background-color: #ffffff;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  transition: background 0.3s, color 0.3s;
+}

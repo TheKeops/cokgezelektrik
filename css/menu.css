@@ -7,6 +7,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.head-text-theme {
+  color: #f1a92d;
+  font-size: 35px;
+  transition: transform 0.3s ease;
+  display: none;
+}
+
+.head-text-theme:hover {
+  color: #f1a92d;
+}
+
 .head-text-insta {
   color: #ea2df1;
   font-size: 35px;
@@ -126,5 +137,11 @@ body {
   }
   .head-text-insta{
     display: inline-block;
-  };
+  }
+  .head-text-theme{
+    display: inline-block;
+    margin-right: 20px;
+    background: none;
+    border: none;
+  }
 }

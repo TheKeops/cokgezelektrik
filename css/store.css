@@ -58,6 +58,21 @@ header img {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.head-text-theme {
+  color: #919191;
+  font-size: 25px;
+  float: right;
+  margin-right: 20px;
+  margin-top: -4px;
+  transition: color 0.3s ease;
+  background: none;
+  border: none;
+}
+
+.head-text-theme:hover {
+  color: #f1a92d;
+}
+
 .head-text-insta {
   color: #919191;
   font-size: 25px;
@@ -145,6 +160,7 @@ body.loaded #loading-screen {
 
 .store-title {
   color: #2d4af1;
+  text-align: center;
 }
 
 .square {
@@ -419,5 +435,8 @@ body.loaded #loading-screen {
   }
   .head-text-location {
       display: none;
+  }
+  .head-text-theme {
+    display: none;
   }
 }
