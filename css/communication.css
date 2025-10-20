@@ -178,11 +178,11 @@ body.loaded #loading-screen {
 }
 
 .instagram:hover {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .facebook:hover {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .telephone {
@@ -195,7 +195,7 @@ body.loaded #loading-screen {
 }
 
 .telephone:hover {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .footer-cakma {
@@ -408,4 +408,3 @@ nav ul {
     display: none;
   }
 }
-

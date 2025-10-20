@@ -10,9 +10,9 @@ localStorage.setItem("site-theme", next);
 
 const logo = document.getElementById("cokgezelektrik_logo");
 if(next === "dark") {
-  logo.src = "image/cokgezelektrik_dark.png";
+  logo.src = "image/cokgezelektrik_dark.PNG";
 } else {
-  logo.src = "image/cokgezelektrik.png";
+  logo.src = "image/cokgezelektrik.PNG";
 }
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -20,5 +20,5 @@ window.addEventListener("DOMContentLoaded", () => {
   document.documentElement.setAttribute("data-theme", savedTheme);
 
   const logo = document.getElementById("cokgezelektrik_logo");
-  logo.src = savedTheme === "dark" ? "image/cokgezelektrik_dark.png" : "image/cokgezelektrik.png";
+  logo.src = savedTheme === "dark" ? "image/cokgezelektrik_dark.PNG" : "image/cokgezelektrik.PNG";
 });
