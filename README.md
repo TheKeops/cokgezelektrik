@@ -1,5 +1,5 @@
 <center>
-  <img src="image/cokgezelektrik_dark.png" alt="Çokgez Elektrik ve Klima servisi">
+  <img src="image/cokgezelektrik_dark.PNG" alt="Çokgez Elektrik ve Klima servisi">
 </center>
 
 # Çokgez Elektrik ve Klima Servisi
