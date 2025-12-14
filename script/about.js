@@ -5,6 +5,10 @@ window.addEventListener("load", function () {
   }, 2000);
 });
 
+function callAndRedirect() {
+  window.location.href = "tel:+905356566554";
+}
+
 function menu() {
   window.location.href = "menu.html";
 }

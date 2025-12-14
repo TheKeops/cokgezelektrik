@@ -9,7 +9,7 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="css/theme.css" />
-    <title>Çokgez Elektrik | 404 Sayfası</title>
+    <title>Çokgez Elektrik | 404 Hatası</title>
 
     <style>
       body {
@@ -55,13 +55,18 @@
         border-radius: 40px;
       }
 
+      .err_text {
+        color: #2d4af1;
+        font-size: 170px;
+        font-style: italic;
+        text-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+      }
+
     </style>
   </head>
   <body>
     <center>
-      <img src="image/cokgezelektrik_404.PNG" alt="404 Sayfası!" />
-      <br />
-      <br />
+      <h1 class="err_text">404</h1>
       <h1>404 Hatası!</h1>
       <h2>Üzgünüz, bu sayfaya erişilemedi.</h2>
       <br />
@@ -79,24 +84,6 @@
       function return_menu_func() {
         window.location.href = "index.html";
       }
-
-      function checkConnection() {
-        if (!navigator.onLine) {
-          window.location.href = "/offline.html";
-        }
-        else {
-          if (window.location.pathname === "/offline.html") {
-            window.location.href = "index.html";
-          }
-        }
-      }
-
-      window.addEventListener('load', checkConnection);
-
-      setInterval(checkConnection, 3000);
-
-      window.addEventListener('offline', checkConnection);
-
     </script>
   </body>
 </html>
