@@ -17,7 +17,7 @@ This repository is intended for private, internal use only. All unauthorized acc
 ## Contact:
 For inquiries or permission requests, please contact the repository owner directly.
 
-© 2025 Çokgez Elektrik. All rights reserved.
+© 2026 Çokgez Elektrik. All rights reserved.
 -----------------------------------------------
 # Türkçe Dil :
 
@@ -38,4 +38,5 @@ Bu depo yalnızca özel, dahili kullanım için tasarlanmıştır. Yetkisiz her 
 ## İletşim 
 Sorularınız veya izin talepleriniz için lütfen doğrudan depo sahibine ulaşın.
 
-© 2025 Çokgez Elektrik. Tüm haklar saklıdır.
+© 2026 Çokgez Elektrik. Tüm haklar saklıdır.
+
