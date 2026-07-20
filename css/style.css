@@ -443,6 +443,10 @@ body.loaded #loading-screen {
   color: red;
 }
 
+.footer-cakma .social-media ul li .ikon-google {
+  color: red;
+}
+
 .footer-cakma .social-media h4 {
   color: white;
   display: block;
